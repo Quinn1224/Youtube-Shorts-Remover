@@ -1,2 +1,2 @@
 # YoutubeShortsBlocker
-Blockiert Youtube Shorts & sonstige Inhalte, die einklappbar sind
+Blockiert Youtube Shorts, indem das Elemente zugeklappt (= dismissed) wird.
