@@ -2,9 +2,15 @@
     "manifest_version": 2,
     "name": "Youtube Shorts Blocker",
     "description": "Entfernt den Shorts Bereich aus Youtube",
-    "version": "2.0",
+    "version": "2.1",
     "homepage_url": "https://github.com/Quinn1224/YoutubeShortsBlocker",
-    
+    "icons": {
+        "16": "icons/no_shorts.png",
+        "32": "icons/no_shorts.png",
+        "48": "icons/no_shorts.png",
+        "96": "icons/no_shorts.png",
+        "128": "icons/no_shorts.png"
+    },
     "browser_specific_settings": {
         "gecko": {
             "data_collection_permissions": {

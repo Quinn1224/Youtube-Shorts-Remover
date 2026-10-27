@@ -2,7 +2,7 @@
 function replaceDismissibleIds() {
 	document.querySelectorAll('#dismissible').forEach((element) => {
 		const title = element.querySelector('#title');
-		if (title && title.textContent.includes('Shorts')) {
+		if (title && title.textContent.includes('Shorts') || title.textContent.includes('Playables')) {
 			element.id = 'dismissed';
 		}
 	});

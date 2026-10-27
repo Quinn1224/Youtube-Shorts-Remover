@@ -1,5 +1,8 @@
 {
     "scripts": {
         "start:firefox": "web-ext run --source-dir ."
+    },
+    "dependencies": {
+        "web-ext": "^10.8.0"
     }
 }
