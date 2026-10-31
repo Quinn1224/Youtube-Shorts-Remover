@@ -1,7 +1,7 @@
 # YoutubeShortsBlocker
-Blockiert Youtube Shorts, indem das Elemente zugeklappt (= dismissed) wird.
+Blockiert Youtube Shorts & Playbles, indem die Elemente zugeklappt (=> HTML Class "dismissed") werden.
 
 ## Bauprozess
 ```shell
-webext 
+web-ext build
 ````
