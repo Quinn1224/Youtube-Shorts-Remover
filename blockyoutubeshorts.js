@@ -2,8 +2,11 @@
 function replaceDismissibleIds() {
 	document.querySelectorAll('#dismissible').forEach((element) => {
 		const title = element.querySelector('#title');
-		if (title && title.textContent.includes('Shorts') || title.textContent.includes('Playables')) {
-			element.id = 'dismissed';
+		if (title && (title.textContent.includes('Shorts') || title.textContent.includes('Playables'))) {
+			const shelf = element.closest('ytd-rich-shelf-renderer');
+			if (shelf) {
+				shelf.remove();
+			}
 		}
 	});
 }
