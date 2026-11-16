@@ -8,6 +8,12 @@ function replaceDismissibleIds() {
 				shelf.remove();
 			}
 		}
+		else if (title && ( title.textContent.includes('Hype') )) {
+			const shelf = element.closest('ytd-brand-video-shelf-renderer');
+			if (shelf) {
+				shelf.remove();
+			}
+		}
 	});
 }
 
