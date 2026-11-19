@@ -8,7 +8,7 @@ function replaceDismissibleIds() {
 				shelf.remove();
 			}
 		}
-		else if (title && ( title.textContent.includes('Hype') )) {
+		else if (title && ( title.textContent.includes('Von YouTube empfohlen') )) {
 			const shelf = element.closest('ytd-rich-section-renderer');
 			if (shelf) {
 				shelf.remove();
