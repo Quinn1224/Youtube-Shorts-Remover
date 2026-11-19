@@ -2,7 +2,7 @@
     "manifest_version": 2,
     "name": "Youtube Shorts Blocker",
     "description": "Entfernt den Shorts, Playables und Hype Bereich aus Youtube",
-    "version": "2.3",
+    "version": "2.4",
     "homepage_url": "https://github.com/Quinn1224/YoutubeShortsBlocker",
    
     "browser_specific_settings": {

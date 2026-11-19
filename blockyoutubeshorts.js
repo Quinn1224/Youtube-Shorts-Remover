@@ -2,14 +2,14 @@
 function replaceDismissibleIds() {
 	document.querySelectorAll('#dismissible').forEach((element) => {
 		const title = element.querySelector('#title');
-		if (title && (title.textContent.includes('Shorts') || title.textContent.includes('Playables') || title.textContent.includes('Hype') )) {
+		if (title && (title.textContent.includes('Shorts') || title.textContent.includes('Playables'))) {
 			const shelf = element.closest('ytd-rich-shelf-renderer');
 			if (shelf) {
 				shelf.remove();
 			}
 		}
 		else if (title && ( title.textContent.includes('Hype') )) {
-			const shelf = element.closest('ytd-brand-video-shelf-renderer');
+			const shelf = element.closest('ytd-rich-section-renderer');
 			if (shelf) {
 				shelf.remove();
 			}
